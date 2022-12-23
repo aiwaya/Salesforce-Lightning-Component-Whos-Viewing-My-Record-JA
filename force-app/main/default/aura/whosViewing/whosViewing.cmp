@@ -24,7 +24,7 @@
                 <div>
                   <lightning:buttonIcon onclick="{!c.onToggleMute}"
                     iconName="{!v.isMuted ? 'utility:volume_off' : 'utility:volume_high'}"
-                    title="{!v.isMuted ? 'Unmute notifications' : 'Mute notifications'}"
+                    title="{!v.isMuted ? 'ミュート解除' : 'ミュート'}"
                     alternativeText="Toggle mute" variant="border-filled"/>
                 </div>
               </div>
@@ -32,7 +32,7 @@
          
             <!-- Concurrent Viewers list -->
               <c:streaming channel="/event/whosViewing__e" onMessage="{!c.handleMessage}"/>
-              <lightning:card title="Who is also viewing this record." class="cardHeight">
+              <lightning:card title="現在参照いているユーザ" class="cardHeight">
                </lightning:card>
             
               <div class="slds-container--fluid slds-scrollable--y content">
