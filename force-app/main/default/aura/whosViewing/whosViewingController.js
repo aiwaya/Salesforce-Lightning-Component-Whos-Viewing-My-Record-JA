@@ -114,7 +114,7 @@
             var readNotification = component.get('v.readNotification');
             utilityAPI.setUtilityHighlighted({ highlighted : false }); 
             utilityAPI.setUtilityLabel(
-                { label : 'Whos Viewing' });                       
+                { label : '参照人数 (0)' });                       
             component.set('v.readNotification', true);
 
         } else {
@@ -122,7 +122,7 @@
             var readNotification = component.get('v.readNotification');
             utilityAPI.setUtilityHighlighted({ highlighted : true });
             utilityAPI.setUtilityLabel(
-                { label : 'Whos Viewing (' + viewing + ')' });                        
+                { label : '参照人数 (' + viewing + ')' });                        
             component.set('v.readNotification', false);
 
         }
