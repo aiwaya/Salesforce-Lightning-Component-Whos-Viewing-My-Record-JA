@@ -1,13 +1,10 @@
 # Salesforce Lightning Component: Whos Viewing My Record
-Have you had issues saving records in Salesforce, because while you where editing a record, another user made/saved edits to the same record? Whos Viewing My Record is here to help! This component will notify you when another user is also viewing the same record as you, to help reduce conflict when saving records. 
-
-## Dev, Build and Test
-Install from the [AppExchange as a Labs App here](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000FKAhhUAH).
+https://github.com/jlondrejcka/Salesforce-Lightning-Component-Whos-Viewing-My-Record　の日本語化
 
 Install via SFDX by downloading this repo:
 ```
-git clone https://github.com/jlondrejcka/Salesforce-Lightning-Component-Whos-Viewing-My-Record
-cd Salesforce-Lightning-Component-Whos-Viewing-My-Record
+git clone https://github.com/jlondrejcka/Salesforce-Lightning-Component-Whos-Viewing-My-Record-JA
+cd Salesforce-Lightning-Component-Whos-Viewing-My-Record-JA
 sfdx force:org:create -s -f config/project-scratch-def.json -a "default scratch org"
 sfdx force:org:open
 sfdx force:source:push
