@@ -1,6 +1,7 @@
 # Salesforce Lightning Component: Whos Viewing My Record
-https://github.com/jlondrejcka/Salesforce-Lightning-Component-Whos-Viewing-My-Record　の日本語化
+https://github.com/jlondrejcka/Salesforce-Lightning-Component-Whos-Viewing-My-Record
 
+の日本語化
 Install via SFDX by downloading this repo:
 ```
 git clone https://github.com/jlondrejcka/Salesforce-Lightning-Component-Whos-Viewing-My-Record-JA
